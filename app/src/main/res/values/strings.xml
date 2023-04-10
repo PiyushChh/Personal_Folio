@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P\'s Folio</string>
+    <string name="leetcode">
+    <a href="https://leetcode.com/piyush_chhawachharia/">Leetcode Profile</a>
+</string>
+    <string name="linkedin">
+    <a href="https://www.linkedin.com/in/piyush-chhawachharia-640321192/">LinkedIn Profile</a>
+</string>
+
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EduActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="My Education"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Class X"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Board:ICSE"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Score:88%"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Class XII"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Board:ISC"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Stream:Science"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Score:96%"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Bachelors"
+            android:layout_margin="16dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Board:Makaut"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->College:Techno India,Kolkata"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Course:B.Tech"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Stream:Computer Science"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->Passout:2023"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="14dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="->DGPA:9.4"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            ></TextView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
